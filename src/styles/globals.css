@@ -105,3 +105,32 @@ a {
     color-scheme: dark;
   }
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.pagination li a {
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+}
+
+.pagination li.active a {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.pagination li a:hover {
+  background-color: #f2f2f2;
+}
